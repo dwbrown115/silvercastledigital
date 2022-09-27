@@ -1,21 +1,22 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from "react";
 
-import "./Contact.scss"
+import "./Contact.scss";
 
 class Contact extends PureComponent {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            
-        }
-    }
+    this.state = {};
+  }
 
-    render() {
-        return (
-            <div>Contact</div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <div id="contact" style={{ position: "absolute", right: "50%" }} />
+        <div>Contact</div>
+      </div>
+    );
+  }
 }
 
-export default Contact
+export default Contact;

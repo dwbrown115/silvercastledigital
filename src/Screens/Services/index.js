@@ -1,21 +1,22 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from "react";
 
-import "./Services.scss"
+import "./Services.scss";
 
 class Services extends PureComponent {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            
-        }
-    }
+    this.state = {};
+  }
 
-    render() {
-        return (
-            <div>Services</div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <div id="services" style={{ position: "absolute", right: "50%" }} />
+        <div>Services</div>
+      </div>
+    );
+  }
 }
 
-export default Services
+export default Services;

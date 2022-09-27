@@ -1,21 +1,22 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent } from "react";
 
-import "./Hero.scss"
+import "./Hero.scss";
 
 class Hero extends PureComponent {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props);
 
-        this.state = {
-            
-        }
-    }
+    this.state = {};
+  }
 
-    render() {
-        return (
-            <div className='hero-container'>Hero</div>
-        )
-    }
+  render() {
+    return (
+      <div className="hero-container">
+        <div id="hero" style={{ position: "absolute", right: "50%" }} />
+        <div>Hero</div>
+      </div>
+    );
+  }
 }
 
-export default Hero
+export default Hero;

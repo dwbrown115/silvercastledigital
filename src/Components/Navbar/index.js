@@ -61,13 +61,13 @@ class Navbar extends PureComponent {
     if (this.state.status === "moved") {
       this.setState({ about: "#323232" });
     } else {
-      this.setState({ about: "#FF6C00" });
+      this.setState({ about: "#5F64F5" });
     }
   }
 
   aboutLeave() {
     if (this.state.status === "moved") {
-      this.setState({ about: "#FF6C00" });
+      this.setState({ about: "#5F64F5" });
     } else {
       this.setState({ about: "white" });
     }
@@ -77,13 +77,13 @@ class Navbar extends PureComponent {
     if (this.state.status === "moved") {
       this.setState({ services: "#323232" });
     } else {
-      this.setState({ services: "#FF6C00" });
+      this.setState({ services: "#5F64F5" });
     }
   }
 
   servicesLeave() {
     if (this.state.status === "moved") {
-      this.setState({ services: "#FF6C00" });
+      this.setState({ services: "#5F64F5" });
     } else {
       this.setState({ services: "white" });
     }
@@ -93,13 +93,13 @@ class Navbar extends PureComponent {
     if (this.state.status === "moved") {
       this.setState({ testimonials: "#323232" });
     } else {
-      this.setState({ testimonials: "#FF6C00" });
+      this.setState({ testimonials: "#5F64F5" });
     }
   }
 
   testimonialsLeave() {
     if (this.state.status === "moved") {
-      this.setState({ testimonials: "#FF6C00" });
+      this.setState({ testimonials: "#5F64F5" });
     } else {
       this.setState({ testimonials: "white" });
     }
@@ -109,13 +109,13 @@ class Navbar extends PureComponent {
     if (this.state.status === "moved") {
       this.setState({ contact: "#323232" });
     } else {
-      this.setState({ contact: "#FF6C00" });
+      this.setState({ contact: "#5F64F5" });
     }
   }
 
   contactLeave() {
     if (this.state.status === "moved") {
-      this.setState({ contact: "#FF6C00" });
+      this.setState({ contact: "#5F64F5" });
     } else {
       this.setState({ contact: "white" });
     }
@@ -138,13 +138,15 @@ class Navbar extends PureComponent {
           }}
         >
           <div className="logo-wrapper">
-            <div className="logo">SilverCastle Digital</div>
+            <div className="logo" onClick={() => this.scrollTo("hero")}>
+              SilverCastle Digital
+            </div>
           </div>
           <div className="navbar-elements">
             <div
               className="element"
               style={{
-                color: `${this.state.sponsorship}`,
+                color: `${this.state.about}`,
                 display: "inline-block",
                 textAlign: "center",
                 padding: "11px 5px",
@@ -154,13 +156,16 @@ class Navbar extends PureComponent {
                 cursor: "pointer",
                 transition: "0.3s",
               }}
+              onClick={() => this.scrollTo("about")}
+              onMouseEnter={() => this.aboutOver()}
+              onMouseLeave={() => this.aboutLeave()}
             >
               About
             </div>
             <div
               className="element"
               style={{
-                color: `${this.state.sponsorship}`,
+                color: `${this.state.services}`,
                 display: "inline-block",
                 textAlign: "center",
                 padding: "11px 5px",
@@ -170,13 +175,16 @@ class Navbar extends PureComponent {
                 cursor: "pointer",
                 transition: "0.3s",
               }}
+              onClick={() => this.scrollTo("services")}
+              onMouseEnter={() => this.servicesOver()}
+              onMouseLeave={() => this.servicesLeave()}
             >
               Services
             </div>
             <div
               className="element"
               style={{
-                color: `${this.state.sponsorship}`,
+                color: `${this.state.testimonials}`,
                 display: "inline-block",
                 textAlign: "center",
                 padding: "11px 5px",
@@ -186,13 +194,16 @@ class Navbar extends PureComponent {
                 cursor: "pointer",
                 transition: "0.3s",
               }}
+              onClick={() => this.scrollTo("testimonials")}
+              onMouseEnter={() => this.testimonialsOver()}
+              onMouseLeave={() => this.testimonialsLeave()}
             >
               Testimonials
             </div>
             <div
               className="element"
               style={{
-                color: `${this.state.sponsorship}`,
+                color: `${this.state.contact}`,
                 display: "inline-block",
                 textAlign: "center",
                 padding: "11px 5px",
@@ -202,6 +213,9 @@ class Navbar extends PureComponent {
                 cursor: "pointer",
                 transition: "0.3s",
               }}
+              onClick={() => this.scrollTo("contact")}
+              onMouseEnter={() => this.contactOver()}
+              onMouseLeave={() => this.contactLeave()}
             >
               Contact
             </div>
