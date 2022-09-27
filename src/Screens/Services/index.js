@@ -11,9 +11,9 @@ class Services extends PureComponent {
 
   render() {
     return (
-      <div>
+      <div className="services-container">
         <div id="services" style={{ position: "absolute", right: "50%" }} />
-        <div>Services</div>
+        <div className="services">Services</div>
       </div>
     );
   }

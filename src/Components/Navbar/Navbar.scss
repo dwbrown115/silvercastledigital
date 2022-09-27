@@ -12,8 +12,12 @@
     transition: 0.3s;
     .logo-wrapper {
       cursor: pointer;
+
       .logo {
       }
+    }
+    .navbar-elements {
+      justify-content: flex-end;
     }
   }
 }

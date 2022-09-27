@@ -11,9 +11,9 @@ class Contact extends PureComponent {
 
   render() {
     return (
-      <div>
+      <div className="contact-container">
         <div id="contact" style={{ position: "absolute", right: "50%" }} />
-        <div>Contact</div>
+        <div className="contact">Contact</div>
       </div>
     );
   }

@@ -13,7 +13,7 @@ class Hero extends PureComponent {
     return (
       <div className="hero-container">
         <div id="hero" style={{ position: "absolute", right: "50%" }} />
-        <div>Hero</div>
+        <div className="hero">Hero</div>
       </div>
     );
   }
