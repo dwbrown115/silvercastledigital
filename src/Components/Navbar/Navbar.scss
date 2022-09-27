@@ -21,6 +21,9 @@
     .navbar-elements {
       margin-left: auto;
       padding: 11px 25px;
+      > * {
+        margin: 0px 20px;
+      }
     }
   }
 }

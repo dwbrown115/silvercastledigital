@@ -9,10 +9,10 @@ class Navbar extends PureComponent {
     this.listener = null;
     this.state = {
       status: "top",
-      about: "#FFFFFF",
-      services: "#FFFFFF",
-      testimonials: "#FFFFFF",
-      contact: "#FFFFFF",
+      about: "#F5F5F5",
+      services: "#F5F5F5",
+      testimonials: "#F5F5F5",
+      contact: "#F5F5F5",
       buttonTextColor: "white",
       bgColor: "transparent",
       borderColor: "white",
@@ -31,10 +31,10 @@ class Navbar extends PureComponent {
         if (this.state.status !== "moved") {
           this.setState({
             status: "moved",
-            about: "#5F64F5",
-            services: "#5F64F5",
-            testimonials: "#5F64F5",
-            contact: "#5F64F5",
+            about: "#B78080",
+            services: "#B78080",
+            testimonials: "#B78080",
+            contact: "#B78080",
             bgColor: "white",
           });
         }
@@ -42,10 +42,10 @@ class Navbar extends PureComponent {
         if (this.state.status !== "top") {
           this.setState({
             status: "top",
-            about: "#fff",
-            services: "#fff",
-            testimonials: "#fff",
-            contact: "#fff",
+            about: "#F5F5F5",
+            services: "#F5F5F5",
+            testimonials: "#F5F5F5",
+            contact: "#F5F5F5",
             bgColor: "transparent",
           });
         }
@@ -61,13 +61,13 @@ class Navbar extends PureComponent {
     if (this.state.status === "moved") {
       this.setState({ about: "#323232" });
     } else {
-      this.setState({ about: "#5F64F5" });
+      this.setState({ about: "#F5ABAB" });
     }
   }
 
   aboutLeave() {
     if (this.state.status === "moved") {
-      this.setState({ about: "#5F64F5" });
+      this.setState({ about: "#B78080" });
     } else {
       this.setState({ about: "white" });
     }
@@ -77,13 +77,13 @@ class Navbar extends PureComponent {
     if (this.state.status === "moved") {
       this.setState({ services: "#323232" });
     } else {
-      this.setState({ services: "#5F64F5" });
+      this.setState({ services: "#F5ABAB" });
     }
   }
 
   servicesLeave() {
     if (this.state.status === "moved") {
-      this.setState({ services: "#5F64F5" });
+      this.setState({ services: "#B78080" });
     } else {
       this.setState({ services: "white" });
     }
@@ -93,13 +93,13 @@ class Navbar extends PureComponent {
     if (this.state.status === "moved") {
       this.setState({ testimonials: "#323232" });
     } else {
-      this.setState({ testimonials: "#5F64F5" });
+      this.setState({ testimonials: "#F5ABAB" });
     }
   }
 
   testimonialsLeave() {
     if (this.state.status === "moved") {
-      this.setState({ testimonials: "#5F64F5" });
+      this.setState({ testimonials: "#B78080" });
     } else {
       this.setState({ testimonials: "white" });
     }
@@ -109,13 +109,13 @@ class Navbar extends PureComponent {
     if (this.state.status === "moved") {
       this.setState({ contact: "#323232" });
     } else {
-      this.setState({ contact: "#5F64F5" });
+      this.setState({ contact: "#F5ABAB" });
     }
   }
 
   contactLeave() {
     if (this.state.status === "moved") {
-      this.setState({ contact: "#5F64F5" });
+      this.setState({ contact: "#B78080" });
     } else {
       this.setState({ contact: "white" });
     }
@@ -129,7 +129,7 @@ class Navbar extends PureComponent {
           style={{
             backgroundColor:
               this.state.status === "top" ? "transparent" : "white",
-            color: this.state.status === "top" ? "white" : "#5F64F5",
+            color: this.state.status === "top" ? "white" : "#B78080",
             position: "fixed",
             boxShadow:
               this.state.status === "top"
@@ -139,7 +139,7 @@ class Navbar extends PureComponent {
         >
           <div className="logo-wrapper">
             <div className="logo" onClick={() => this.scrollTo("hero")}>
-              SilverCastle Digital
+              Silvercastle Digital
             </div>
           </div>
           <div className="navbar-elements" style={{ paddingLeft: "15px;" }}>
