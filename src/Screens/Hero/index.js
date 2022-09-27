@@ -13,7 +13,7 @@ class Hero extends PureComponent {
 
     render() {
         return (
-            <div>Hero</div>
+            <div className='hero-container'>Hero</div>
         )
     }
 }

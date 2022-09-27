@@ -1,0 +1,19 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  .navbar {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    transition: 0.3s;
+    .logo-wrapper {
+      cursor: pointer;
+      .logo {
+      }
+    }
+  }
+}
