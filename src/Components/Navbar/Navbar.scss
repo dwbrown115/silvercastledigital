@@ -1,23 +1,26 @@
 .navbar-container {
-  width: 100%;
-  display: flex;
   .navbar {
-    width: 100%;
-    text-align: center;
+    width: 99%;
+    // text-align: center;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     position: fixed;
     z-index: 100;
     transition: 0.3s;
+    padding: 15px;
     .logo-wrapper {
       cursor: pointer;
-
+      padding: 11px 5px;
+      margin: 0px 20px;
+      font-size: 1.563rem;
+      font-weight: 500;
       .logo {
       }
     }
     .navbar-elements {
-      justify-content: flex-end;
+      margin-left: auto;
+      padding: 11px 25px;
     }
   }
 }

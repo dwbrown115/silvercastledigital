@@ -142,17 +142,17 @@ class Navbar extends PureComponent {
               SilverCastle Digital
             </div>
           </div>
-          <div className="navbar-elements">
+          <div className="navbar-elements" style={{ paddingLeft: "15px;" }}>
             <div
               className="element"
               style={{
                 color: `${this.state.about}`,
                 display: "inline-block",
                 textAlign: "center",
-                padding: "11px 5px",
-                margin: "0px 20px",
-                fontSize: "11px",
-                fontWeight: "600",
+                // padding: "11px 5px",
+                // margin: "0px 20px",
+                fontSize: "1rem",
+                fontWeight: "500",
                 cursor: "pointer",
                 transition: "0.3s",
               }}
@@ -168,10 +168,10 @@ class Navbar extends PureComponent {
                 color: `${this.state.services}`,
                 display: "inline-block",
                 textAlign: "center",
-                padding: "11px 5px",
-                margin: "0px 20px",
-                fontSize: "11px",
-                fontWeight: "600",
+                // padding: "11px 5px",
+                // margin: "0px 20px",
+                fontSize: "1rem",
+                fontWeight: "500",
                 cursor: "pointer",
                 transition: "0.3s",
               }}
@@ -187,10 +187,10 @@ class Navbar extends PureComponent {
                 color: `${this.state.testimonials}`,
                 display: "inline-block",
                 textAlign: "center",
-                padding: "11px 5px",
-                margin: "0px 20px",
-                fontSize: "11px",
-                fontWeight: "600",
+                // padding: "11px 5px",
+                // margin: "0px 20px",
+                fontSize: "1rem",
+                fontWeight: "500",
                 cursor: "pointer",
                 transition: "0.3s",
               }}
@@ -206,10 +206,10 @@ class Navbar extends PureComponent {
                 color: `${this.state.contact}`,
                 display: "inline-block",
                 textAlign: "center",
-                padding: "11px 5px",
-                margin: "0px 20px",
-                fontSize: "11px",
-                fontWeight: "600",
+                // padding: "11px 5px",
+                // margin: "0px 20px",
+                fontSize: "1rem",
+                fontWeight: "500",
                 cursor: "pointer",
                 transition: "0.3s",
               }}
