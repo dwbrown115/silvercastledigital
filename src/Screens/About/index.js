@@ -13,7 +13,14 @@ class About extends PureComponent {
     return (
       <div className="about-container">
         <div id="about" style={{ position: "absolute", right: "50%" }} />
-        <div className="about">About</div>
+        <div className="about">
+          <div className="header-wrapper">
+            <div className="heading-one">We Are Silvercastle Digital</div>
+            <div className="heading-two">
+              It says we, but is just one dude for now
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
