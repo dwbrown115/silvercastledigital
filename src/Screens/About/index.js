@@ -17,20 +17,20 @@ class About extends PureComponent {
           style={{ position: "absolute", margin: "-89px", right: "50%" }}
         />
         <div className="about">
-          <div className="header-wrapper">
-            <div className="heading-one">We Are Silvercastle Digital</div>
-            <div className="heading-two">
+          <div className="about-header-wrapper">
+            <div className="about-heading-one">We Are Silvercastle Digital</div>
+            <div className="about-heading-two">
               It says we, but is just one dude for now
             </div>
           </div>
-          <div className="body-wrapper">
-            <div className="body-row">
-              <div className="body-row-element-one">
+          <div className="about-body-wrapper">
+            <div className="about-body-row">
+              <div className="about-body-row-element-one">
                 Today every great buisness needs great website, especially one
                 that works on mobile. I am here to help you achieve that and
                 take your buisness to the next level.
               </div>
-              <div className="body-row-elemtent-two">
+              <div className="about-body-row-elemtent-two">
                 ReactJS is the backbone of all of our websites, and for good
                 reason. It's what many of the top companies such as Netflix,
                 Facebook and Dropbox use to power their theirs. With the
@@ -38,7 +38,15 @@ class About extends PureComponent {
                 and you should too.
               </div>
             </div>
-            <div className="body-footer">Footer</div>
+            <div className="about-body-footer">
+              <div classname="about-body-footer-text-one">
+                It doesn't matter whether or not you already have a design in
+                mind, I can do it all.
+              </div>
+              <div className="about-body-footer-text-two">
+                Let me show you what I can do.
+              </div>
+            </div>
           </div>
         </div>
       </div>
