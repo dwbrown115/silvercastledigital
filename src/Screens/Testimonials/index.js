@@ -12,7 +12,10 @@ class Testimonials extends PureComponent {
   render() {
     return (
       <div className="testimonials-container">
-        <div id="testimonials" style={{ position: "absolute", right: "50%" }} />
+        <div
+          id="testimonials"
+          style={{ position: "absolute", margin: "-89px", right: "50%" }}
+        />
         <div className="testimonials">Testimonials</div>
       </div>
     );

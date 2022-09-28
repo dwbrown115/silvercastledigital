@@ -88,7 +88,10 @@ class Hero extends PureComponent {
   render() {
     return (
       <div className="hero-container">
-        <div id="hero" style={{ position: "absolute", right: "50%" }} />
+        <div
+          id="hero"
+          style={{ position: "absolute", margin: "-89px", right: "50%" }}
+        />
         <div className="hero">
           <div className="hero-image-wrapper">
             <div className="hero-image-and-text">

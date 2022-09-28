@@ -12,7 +12,10 @@ class Services extends PureComponent {
   render() {
     return (
       <div className="services-container">
-        <div id="services" style={{ position: "absolute", right: "50%" }} />
+        <div
+          id="services"
+          style={{ position: "absolute", margin: "-89px", right: "50%" }}
+        />
         <div className="services">Services</div>
       </div>
     );
