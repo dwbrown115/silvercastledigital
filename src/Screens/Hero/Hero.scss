@@ -6,7 +6,7 @@
     .hero-image-wrapper {
       // padding: 0px 75px;
       .hero-image-and-text {
-        padding-top: 90px;
+        padding-top: 85px;
         background-image: url("HeroBG.jpg");
         background-repeat: no-repeat;
         background-size: 100% auto;
@@ -25,13 +25,15 @@
           font-weight: 600;
         }
         .contact-button {
-
+          margin-top: 55px;
+          margin-bottom: 25px;
           // cursor: pointer;
           // font-size: 1.563rem;
         }
         .learn-more-button {
           // cursor: pointer;
           // font-size: 1.25rem;
+          margin-bottom: 25px;
         }
       }
     }

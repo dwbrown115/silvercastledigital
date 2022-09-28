@@ -93,24 +93,23 @@ class Hero extends PureComponent {
           <div className="hero-image-wrapper">
             <div className="hero-image-and-text">
               <div className="hero-header">
-                Let's Level Up Your Buisness With A New Website
+                Level Up Your Buisness With A New Website
               </div>
               <div
                 className="contact-button"
                 onMouseEnter={() => this.contactButtonOver()}
                 onMouseLeave={() => this.contactButtonLeave()}
                 style={{
-                  border: "1px solid",
+                  border: "2.5px solid",
                   borderColor: `${this.state.contactBorderColor}`,
                   backgroundColor: `${this.state.contactBgColor}`,
                   borderRadius: "30px",
                   display: "inline-block",
                   color: `${this.state.contactButtonTextColor}`,
                   textAlign: "center",
-                  margin: "0px 25px",
-                  padding: "8px 15px",
+                  padding: "5px 35px",
                   fontSize: "1.563rem",
-                  fontWeight: "600",
+                  fontWeight: "800",
                   transition: "0.3s",
                   cursor: "pointer",
                 }}
@@ -123,15 +122,14 @@ class Hero extends PureComponent {
                 onMouseEnter={() => this.learnButtonOver()}
                 onMouseLeave={() => this.learnButtonLeave()}
                 style={{
-                  border: "1px solid",
+                  border: "1.5px solid",
                   borderColor: `${this.state.learnBorderColor}`,
                   backgroundColor: `${this.state.learnBgColor}`,
                   borderRadius: "30px",
                   display: "inline-block",
                   color: `${this.state.learnButtonTextColor}`,
                   textAlign: "center",
-                  margin: "0px 25px",
-                  padding: "8px 15px",
+                  padding: "5px 25px",
                   fontSize: "1.25rem",
                   fontWeight: "600",
                   transition: "0.3s",
