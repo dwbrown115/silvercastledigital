@@ -38,15 +38,15 @@ class About extends PureComponent {
                 and you should too.
               </div>
             </div>
-            <div className="about-body-footer">
+            {/* <div className="about-body-footer">
               <div classname="about-body-footer-text-one">
                 It doesn't matter whether or not you already have a design in
                 mind, I can do it all.
               </div>
               <div className="about-body-footer-text-two">
-                Let me show you what I can do.
+                Let me show you how I work.
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

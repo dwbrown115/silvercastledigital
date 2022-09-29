@@ -1,20 +1,27 @@
 .about-container {
-  height: 1000px;
   width: 100%;
   background-color: #b78080;
   .about {
     color: #f5f5f5;
     .about-header-wrapper {
+      padding-top: 40px;
       display: flex;
       flex-direction: column;
       width: 100%;
-
+      align-items: center;
       .about-heading-one {
+        font-size: 3.052rem;
+        font-weight: 700;
       }
       .about-heading-two {
+        margin-top: 20px;
+        margin-bottom: 35px;
+        font-size: 1.563rem;
       }
     }
     .about-body-wrapper {
+      padding-top: 30px;
+      padding-bottom: 80px;
       .about-body-row {
         display: flex;
         padding: 0px 150px;
@@ -35,6 +42,8 @@
         }
       }
       .about-body-footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
         .about-body-footer-text-one {
         }
         .about-body-footer-text-two {
