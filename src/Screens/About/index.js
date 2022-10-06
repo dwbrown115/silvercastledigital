@@ -1,5 +1,7 @@
 import React, { PureComponent } from "react";
 
+import { portrait } from "../../Images";
+
 import "./About.scss";
 
 class About extends PureComponent {
@@ -24,18 +26,23 @@ class About extends PureComponent {
             </div>
           </div>
           <div className="about-body-wrapper">
-            <div className="about-body-row">
-              <div className="about-body-row-element-one">
+            <div className="about-body-column">
+              <div className="about-body-column-element-one">
                 Today every great buisness needs great website, especially one
                 that works on mobile. I am here to help you achieve that and
                 take your buisness to the next level.
               </div>
-              <div className="about-body-row-elemtent-two">
+              <div className="about-body-column-elemtent-two">
                 ReactJS is the backbone of all of our websites, and for good
                 reason. It's what many of the top companies such as Netflix,
                 Facebook and Dropbox use to power their theirs. With the
                 versatility and upgradability it's no wonder why they use it,
                 and you should too.
+              </div>
+            </div>
+            <div className="about-body-image-wrapper">
+              <div>
+                <img src={portrait} alt="portrait.jpg" />
               </div>
             </div>
             {/* <div className="about-body-footer">
