@@ -16,7 +16,14 @@ class Services extends PureComponent {
           id="services"
           style={{ position: "absolute", margin: "-89px", right: "50%" }}
         />
-        <div className="services">Services</div>
+        <div className="services">
+          <div className="services-header">Services</div>
+          <div className="services-row">
+            <div className="services-card">Design</div>
+            <div className="services-card">Build</div>
+            <div className="services-card">Deploy</div>
+          </div>
+        </div>
       </div>
     );
   }

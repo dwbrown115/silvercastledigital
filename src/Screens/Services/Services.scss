@@ -1,7 +1,19 @@
 .services-container {
-    height: 1000px;
-    width: 100%;
-    .services {
-        padding-top: 90px;
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+  .services {
+    // padding-top: 90px;
+    .services-header {
     }
+    .services-row {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      .services-card {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
 }
